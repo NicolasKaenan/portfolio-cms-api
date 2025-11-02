@@ -33,7 +33,7 @@ class ProjectsServiceTest {
     @BeforeEach
     void setUp() {
         projects = new Projects();
-        projects.setId_projects(1L);
+        projects.setId(1L);
         projects.setTitle("Novo Projeto Teste");
     }
 
