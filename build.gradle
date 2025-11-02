@@ -8,11 +8,11 @@ group = 'com.portifolio-kaenan'
 version = '0.0.1-SNAPSHOT'
 description = "Backend API for Kaenan's Portfolio CMS"
 
-java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
-	}
-}
+// java {
+//	toolchain {
+//		languageVersion = JavaLanguageVersion.of(17)
+//	}
+// }
 
 configurations {
 	compileOnly {
