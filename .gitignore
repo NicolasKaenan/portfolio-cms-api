@@ -24,3 +24,7 @@ application-local.yml
 
 *.log
 *.jar
+
+.gradle/
+*.lock
+*.bin

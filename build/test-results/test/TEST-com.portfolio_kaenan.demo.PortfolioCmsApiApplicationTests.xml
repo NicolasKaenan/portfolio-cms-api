@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.portfolio_kaenan.demo.PortfolioCmsApiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-16T22:36:51.104Z" hostname="KAENAN-NOTEBOOK" time="1.238">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.portfolio_kaenan.demo.PortfolioCmsApiApplicationTests" time="1.238"/>
+  <system-out><![CDATA[19:36:36.191 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.portfolio_kaenan.demo.PortfolioCmsApiApplicationTests]: PortfolioCmsApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:36:36.373 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.portfolio_kaenan.demo.PortfolioCmsApiApplication for test class com.portfolio_kaenan.demo.PortfolioCmsApiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.7)
+
+2026-01-16T19:36:37.362-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] c.p.d.PortfolioCmsApiApplicationTests    : Starting PortfolioCmsApiApplicationTests using Java 17.0.12 with PID 15252 (started by kaena in D:\Github\portfolio-cms-api)
+2026-01-16T19:36:37.363-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] c.p.d.PortfolioCmsApiApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-16T19:36:39.235-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T19:36:39.354-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 4 JPA repository interfaces.
+2026-01-16T19:36:40.357-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T19:36:40.473-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-01-16T19:36:40.571-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T19:36:41.119-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T19:36:41.158-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T19:36:44.253-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cc89246
+2026-01-16T19:36:44.256-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T19:36:44.816-03:00  WARN 15252 --- [Portfolio CMS API] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T19:36:45.796-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T19:36:48.219-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T19:36:48.226-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T19:36:49.119-03:00  WARN 15252 --- [Portfolio CMS API] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T19:36:49.739-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-01-16T19:36:51.054-03:00  INFO 15252 --- [Portfolio CMS API] [    Test worker] c.p.d.PortfolioCmsApiApplicationTests    : Started PortfolioCmsApiApplicationTests in 14.263 seconds (process running for 16.415)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
