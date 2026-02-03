@@ -15,6 +15,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/v1/tags")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
 public class PostTagController {
     private final PostTagService postTagService;
 

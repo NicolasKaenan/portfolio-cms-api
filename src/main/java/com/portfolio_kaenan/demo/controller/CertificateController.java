@@ -13,6 +13,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/v1/certificates") // URL base
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
 public class CertificateController {
     private final CertificateService certificateService;
 
