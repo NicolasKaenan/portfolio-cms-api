@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(
         originPatterns = {
                 "http://localhost:*",
-                "https://*.kaenan.dev"
+                "https://*.kaenan.dev",
+                "https://kaenan.dev"
         }
 )
 

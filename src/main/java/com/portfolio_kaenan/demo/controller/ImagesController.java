@@ -14,7 +14,8 @@ import java.util.List;
 @CrossOrigin(
         originPatterns = {
                 "http://localhost:*",
-                "https://*.kaenan.dev"
+                "https://*.kaenan.dev",
+                "https://kaenan.dev"
         }
 )
 
