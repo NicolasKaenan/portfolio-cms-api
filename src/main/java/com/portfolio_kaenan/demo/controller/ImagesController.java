@@ -11,7 +11,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/images")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(
+        originPatterns = {
+                "http://localhost:*",
+                "https://*.kaenan.dev"
+        }
+)
+
 public class ImagesController {
     private final ImagesService imagesService;
 

@@ -12,7 +12,13 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/v1/projects")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(
+        originPatterns = {
+                "http://localhost:*",
+                "https://*.kaenan.dev"
+        }
+)
+
 public class ProjectsController {
 
     private final ProjectsService projectsService;
